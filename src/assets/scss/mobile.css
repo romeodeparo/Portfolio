@@ -1,0 +1,164 @@
+.homeText {
+    top: 30%;
+    z-index: 2;
+    position: absolute;
+}
+
+.mobileNavbar {
+    /* position: absolute; */
+    z-index: 10;
+    color: #61dbfb;
+    background-color: #141414;
+    /* border-bottom: 2px #61dbfb; */
+    width: 100%;
+    /* height: 40px; */
+    position: fixed;
+    top: 0;
+}
+
+.mobileNavbarLink {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.mobileNavbarLink a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.mobileNavbarLink a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+.nav-wrapper {
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #141414;
+}
+
+.nav-wrapper>nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-wrapper>nav>a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 40px;
+    color: #fff !important;
+    margin: 30px;
+}
+
+.burgherMenu {
+    /* z-index: 30; */
+    /* position: absolute; */
+    background-color: transparent;
+    border: none;
+    position: sticky;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.burgherIcon {
+    background-color: transparent;
+    width: 60px;
+}
+
+.burgherContainer {
+    z-index: 21;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #141414;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.mobileLogo {
+    width: 35%;
+
+}
+
+.mobileLogoContainer {
+    margin: 0px !important;
+    margin-top: 10px !important;
+    top: 0;
+    position: absolute;
+    text-align: center;
+}
+
+.mobileContainer {
+    /* padding-top: 60px; */
+    padding-bottom: 60px;
+    /* position: inherit; */
+}
+
+
+.paragraphCustomMobile {
+    display: inline-block;
+    max-width: 500px;
+    margin-top: 60px;
+    /* font-family: "open sans"; */
+    font-weight: 400;
+    /* font-style: italic; */
+    font-size: 1rem;
+    line-height: 2rem;
+    padding-bottom: 0.25em;
+    margin: 0px 0px -0.25rem;
+    align-self: center;
+}
+
+
+.homeTextBottom {
+    bottom: 10%;
+    z-index: 2;
+    position: absolute;
+    color: #61dbfb;
+    width: 100%;
+
+    font-weight: 600;
+
+}
+
+.arrowMobile {
+    width: 60px;
+}
+
+.customTitleMobile {
+    margin-left: 20px;
+    align-items: left;
+    font-weight: 800;
+    color: white;
+    font-size: 30px;
+}
+
+.noScroll {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.paragraphTitleMobile{
+    font-size: 20px;
+    font-weight: 700;
+    color: #61dbfb !important;
+}
